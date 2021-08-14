@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'> <!--Para trabajar con sitios responsive y poder tener la referencia del viewport-->
+        <meta name='robots' content='index,follow'>   <!-- Es para permitir a los robots como el de google indexar nuestra página en los resultados -->
+        <link rel='stylesheet' type='text/css' href='style.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <title>Whatsapp Bot</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div>
+                    <h1 class="titulo">WABOT</h1>
+                </div>
+            </header>
+            <main>
+                <div class="hero">
+                        <div class="label_container">
+                            <span class="label1">¡NO MÁS CONTACTOS INNECESARIOS!</span>
+                            <span class="label2">Envía mensajes sin agregar contactos nuevos</span>
+                        </div>
+                        <div class="input-container">
+                            <div class="input">
+                                <input type="text" list="paises" id="codigo_pais">
+                                <datalist id="paises">
+                                <option value="+52">México</option>
+                                </datalist>
+                                <input id="tel" type="number" class="input__box" placeholder="Ingresa el número">
+                            </div>
+                            <button class="boton" id="ir_chat">Ir al chat</button>
+                        </div>
+                    </div>
+            </main>
+            <footer>
+                Copyright Chachito
+            </footer>
+        </div>
+    <script src="script.js"></script>
+    </body>
+    </html>

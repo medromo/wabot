@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+header {
+    background-color: #25D366;
+    height: 100px;
+    padding: 20px;
+}
+
+.titulo {
+    color: black;
+    font-size: 5rem;
+    color: black;
+}
+
+main {
+    display: flex;
+    background-color: #128C7E;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    background-color: #40ca8e;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 30%;
+    padding: 50px 0;
+    box-shadow: 5px 5px 15px 0px rgba(120,120,120,0.6);
+}
+
+footer {
+    background-color: #075E54;
+    padding-left: 30px;
+}
+
+.label_container {
+    margin: 30px 0;
+}
+
+.label_container span {
+    display: block;
+}
+
+.label1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.label2 {
+    margin-top: 15px;
+    font-size: 4.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.input__box, .boton, #codigo_pais {
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 15px 0px rgba(120,120,120,0.6);
+}
+
+#codigo_pais {
+    width: 70px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.input__box {
+    text-align: center;
+}
+
+.boton {
+    margin: 25px;
+    background-color: #34B7F1;
+    color: white;
+}
+
