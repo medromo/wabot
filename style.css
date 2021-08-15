@@ -91,6 +91,7 @@ input::-webkit-inner-spin-button {
     border-radius: 20px;
     border: none;
     box-shadow: 5px 5px 15px 0px rgba(120,120,120,0.6);
+    background-color: white;
 }
 
 #codigo_pais {
@@ -99,6 +100,10 @@ input::-webkit-inner-spin-button {
     margin-right: 10px;
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+#codigo_pais::placeholder {
+    font-size: 1.5rem;
 }
 
 .input__box {
