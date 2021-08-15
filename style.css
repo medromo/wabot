@@ -102,13 +102,13 @@ input::-webkit-inner-spin-button {
     font-weight: bold;
 }
 
-#codigo_pais::placeholder {
-    font-size: 1.5rem;
-}
-
 .input__box {
     text-align: center;
     font-size: 2rem;
+}
+
+.input__box::placeholder {
+    font-size: 1.5rem;
 }
 
 .boton {
