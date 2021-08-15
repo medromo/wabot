@@ -94,7 +94,7 @@ input::-webkit-inner-spin-button {
 #codigo_pais {
     width: 70px;
     margin-right: 10px;
-    text-align: right;
+    text-align: center;
     font-size: 1.6rem;
     font-weight: bold;
 }
