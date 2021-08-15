@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 html {
@@ -92,15 +94,16 @@ input::-webkit-inner-spin-button {
 }
 
 #codigo_pais {
-    width: 70px;
+    padding-left: 15px;
+    width: 100px;
     margin-right: 10px;
-    text-align: center;
     font-size: 1.6rem;
     font-weight: bold;
 }
 
 .input__box {
     text-align: center;
+    font-size: 2rem;
 }
 
 .boton {
